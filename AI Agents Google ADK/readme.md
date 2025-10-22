@@ -16,18 +16,39 @@ This repository contains ready-to-run scaffolds for official ADK codelabs and a 
 
   
 
-**Part B — Hackathon Agent Application**
+**Part B: Hackathon Agent Application – Job Interview Agent (ADK)**
 
-💡 Inspired by projects from the awesome-adk-agents
- list.
+💡 Inspired by projects from awesome-adk-agents.
 
-Docs Q&A RAG Agent (Starter)
+Project Link: https://github.com/Sri-Krishna-V/awesome-adk-agents/tree/main/my-adk-agents/job-interview-agent
 
-Indexes local Markdown/PDF docs.
+What it does
 
-Answers user questions using simple keyword+chunk retrieval.
+Runs a Job Interview Agent that conducts mock interviews, asks role-specific questions, and gives targeted feedback.
 
-Swappable with ADK LlmAgent + vector DB for production.
+Uses ADK agent building blocks (tools, memory, policies) for structured multi-turn interviews.
+
+Supports custom interview profiles (role, seniority, competency areas) via config.
+
+Key Features
+
+Dynamic questioning: adapts follow-ups based on candidate answers.
+
+Rubric-based scoring: rates answers across clarity, correctness, depth, and impact.
+
+Actionable feedback: summarizes strengths, gaps, and suggested improvements.
+
+Pluggable LLM/tooling: swap ADK LlmAgent and vector/memory backends as needed.
+
+Tech Stack
+
+ADK Agents (core orchestration)
+
+Python (agent logic & scoring)
+
+Optional: Vector DB (resume/context retrieval), OpenAI/other LLMs
+
+
 
 
 
