@@ -22,34 +22,13 @@ This repository contains ready-to-run scaffolds for official ADK codelabs and a 
 
 Project Link: https://github.com/Sri-Krishna-V/awesome-adk-agents/tree/main/my-adk-agents/job-interview-agent
 
-What it does
+***What it does***
 
-Runs a Job Interview Agent that conducts mock interviews, asks role-specific questions, and gives targeted feedback.
+1.Runs a Job Interview Agent that conducts mock interviews, asks role-specific questions, and gives targeted feedback.
 
-Uses ADK agent building blocks (tools, memory, policies) for structured multi-turn interviews.
+2.Uses ADK agent building blocks (tools, memory, policies) for structured multi-turn interviews.
 
-Supports custom interview profiles (role, seniority, competency areas) via config.
-
-Key Features
-
-Dynamic questioning: adapts follow-ups based on candidate answers.
-
-Rubric-based scoring: rates answers across clarity, correctness, depth, and impact.
-
-Actionable feedback: summarizes strengths, gaps, and suggested improvements.
-
-Pluggable LLM/tooling: swap ADK LlmAgent and vector/memory backends as needed.
-
-Tech Stack
-
-ADK Agents (core orchestration)
-
-Python (agent logic & scoring)
-
-Optional: Vector DB (resume/context retrieval), OpenAI/other LLMs
-
-
-
+3.Supports custom interview profiles (role, seniority, competency areas) via config.
 
 
 
