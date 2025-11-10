@@ -1,0 +1,5 @@
+GCLOUD_LOCATION: "us-central1"
+GCLOUD_PROJECT_ID: "glassy-mystery-477722-b4"
+BACKEND_URL: "http://localhost:8081/chat"
+STORAGE_BUCKET_NAME: "personal-assistant"
+DB_COLLECTION_NAME: "personal-expense-assistant-receipts"
